@@ -1,0 +1,147 @@
+title: CoffeeRoll.dev
+subtitle: null
+description: >-
+  Where is this text???
+url: coffeeroll.github.io
+baseurl: ''
+urls:
+  - text: About
+    url: /about
+  - text: Blog
+    url: /blog
+logo: logo_orange.png
+author_logo: coffeeroll_white.png
+author: CoffeeRoll
+author_bio: 'Just another C# developer, nothing to see here.'
+author_email: null
+author_location: Greater Boston
+author_website_url: 'https://coffeeroll.dev'
+hero_cover_img: cover.jpg
+author_work_experiences:
+  - company_name: Google
+    company_logo: google.png
+    company_url: 'https://google.com'
+    designation: Software Engineer
+    description: Worked on various Google Products
+    visibility: false
+  - company_name: Microsoft
+    company_logo: microsoft.png
+    company_url: 'https://microsoft.com'
+    designation: Azure Developer
+    description: Worked on various Azure Cloud Products
+    visibility: false
+author_education_details:
+  - college_logo: mit.png
+    college_name: MIT
+    college_url: 'https://mit.org'
+    college_degree: CS Engineer
+    description: Bachelor of Technology
+    visibility: false
+author_project_details:
+  - project_thumbnail: gamershub.png
+    project_title: Gamers Hub
+    project_description: A Platform built for Gamers and Game Devs
+    project_url: 'https://gamershub.in'
+    visibility: false
+  - project_thumbnail: hack4r.PNG
+    project_title: Hack4r
+    project_description: A Platform built for Hackers and Penetration Testers
+    project_url: 'https://hack4r.com'
+    visibility: false
+twitter_username: 
+github_username: CoffeeRoll
+facebook_username: 
+linkedin_username: 
+behance_username: 
+instagram_username: 
+medium_username: 
+telegram_username: 
+dribbble_username: 
+flickr_username: 
+hyvor_talk_website_id: 
+disqus_shortname: "coffeeroll-dev"
+wakatime_username: CoffeeRoll
+mailchimp_form_url: null
+formspree_email: null
+olvy_organization: coffeeroll
+olvy_widget_type: sidebar
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+show_author_work_experiences: false
+show_author_education_details: false
+show_author_project_details: true
+paginate: 4
+per_page: 4
+paginate_path: '/blog/page/:num/'
+collections:
+  products:
+    output: true
+  authors:
+    output: true
+defaults:
+  - scope:
+      path: ''
+      type: authors
+    values:
+      layout: author
+      permalink: '/blog/authors/:slug'
+  - scope:
+      path: assets/**
+    values:
+      sitemap: false
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-admin
+jekyll_admin:
+  homepage: posts
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - assets/bower_components/isotope-layout/README.md
+  - assets/bower_components/icono/README.md
+  - >-
+    assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-svg-core/README.md
+  - assets/bower_components/ghosthunter/README.md
+  - assets/bower_components/nanobar/README.md
+  - assets/bower_components/lightgallery/demo/README.md
+  - >-
+    assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-brands-svg-icons/README.md
+  - >-
+    assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-solid-svg-icons/README.md
+  - assets/bower_components/jquery-mousewheel/README.md
+  - assets/bower_components/get-size/README.md
+  - >-
+    assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome/README.md
+  - assets/bower_components/jquery-mousewheel/ChangeLog/README.md
+  - >-
+    assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/README.md
+  - assets/bower_components/desandro-matches-selector/README.md
+  - assets/bower_components/ev-emitter/README.md
+  - assets/bower_components/font-awesome/README.md
+  - >-
+    assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/README.md
+  - >-
+    assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free/README.md
+  - >-
+    assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/README.md
+  - >-
+    assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/README.md
+  - >-
+    assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-common-types/README.md
+  - assets/bower_components/ghosthunter/example/Index.html
+  - assets/bower_components/lightgallery/test/lightgallery.html
+  - assets/bower_components/masonry-layout/README.md
+  - assets/bower_components/imagesloaded/README.md
+destination: ./build

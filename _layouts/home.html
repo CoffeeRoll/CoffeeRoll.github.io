@@ -1,0 +1,36 @@
+---
+layout: full-width
+---
+
+<script>
+  const typeText = "This should not be seen ever";
+  const typeTextItems = [];
+</script>
+
+{% for typeTextItem in site.typewrite-text %}
+
+<script>
+  typeTextItems.push("{{typeTextItem}}");
+</script>
+
+{% endfor %}
+
+<script>
+  $(document).ready(function() {
+    fetch("./assets/data/typetexts.json")
+    .then(response => {
+      return response.json();
+    })
+    .then(data => {
+      $("#typewriteText").typewrite({
+      actions: [{ type: data.typetexts[Math.floor(Math.random() * data.typetexts.length)] }]
+    });
+    });
+    
+  });
+</script>
+    <!-- hero section-->
+    {%- include hero.html -%}
+    <div class="col-lg-8 offset-md-2">
+      {%- include recent_articles.html -%}
+    </div>

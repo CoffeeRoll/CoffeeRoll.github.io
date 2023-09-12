@@ -1,0 +1,11 @@
+# Add Authors here
+coffeeroll:
+   name: CoffeeRoll
+   username: coffeeroll
+   site: https://coffeeroll.dev
+   avatar: coffeeroll_white.png
+   bio: ''
+   email: ''
+   social:
+      - title: "github"
+        url: "https://github.com/coffeeroll"

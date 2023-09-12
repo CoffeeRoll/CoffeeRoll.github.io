@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="row justify-content-center" id="blog-post-container">
+  <div class="col-lg-9">
+    {%- include blog_post_article.html -%}
+     {%- include blog_post_comments.html-%}
+  </div>
+  <div class="col-md-3">
+    <div class="card">
+      <div class="card-header">About {{site.author}}</div>
+      <div class="card-body">
+        <p class="author_bio">{{ site.author_bio }}</p>
+        {%- include github_follow_button.html -%}
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">Categories</div>
+      <div class="card-body text-dark">
+        {%- include blog_categories.html -%}
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">Share this Article</div>
+        {%- include share_page.html -%}
+    </div>
+  </div>
+</div>
+
