@@ -2,8 +2,8 @@ title: CoffeeRoll.dev
 subtitle: null
 description: >-
   Where is this text???
-url: coffeeroll.github.io
-baseurl: '/'
+url: ''
+baseurl: ''
 urls:
   - text: About
     url: /about
