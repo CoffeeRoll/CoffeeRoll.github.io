@@ -5,7 +5,7 @@ title: CoffeeRoll.dev is up and Running
 date: 2023-09-11T16:52:20.613Z
 thumbnail: /assets/img/posts/initial-post/thumbnail.png
 category: jekyll
-summary: Blog setup and 
+summary: Blog setup
 keywords: initial post, jekyll, github pages
 permalink: /blog/initial-post/
 comments: true
