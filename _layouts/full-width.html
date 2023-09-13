@@ -37,6 +37,7 @@ layout: compress
       });
     }
   </script>
+    {% if site.olvy_organization %}
       <!-- what's new -->
        <script>
         var OlvyConfig = {
@@ -54,5 +55,6 @@ layout: compress
         };
       </script>
       <script type="text/javascript" src="https://app.olvy.co/script.js" defer="defer"></script>
+    {% endif %}
     </body>
 </html>

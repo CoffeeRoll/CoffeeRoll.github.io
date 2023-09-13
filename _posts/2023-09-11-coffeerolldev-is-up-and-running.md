@@ -3,15 +3,19 @@ layout: post
 author: coffeeroll
 title: CoffeeRoll.dev is up and Running
 date: 2023-09-11T16:52:20.613Z
-thumbnail: /assets/img/posts/hello.jpg
+thumbnail: /assets/img/posts/initial-post/thumbnail.png
 category: jekyll
-summary: Initial Post
+summary: Blog setup and 
 keywords: initial post, jekyll, github pages
 permalink: /blog/initial-post/
 comments: true
 ---
-## Hello World
+## Hello World!
 
 This is the first post made on CoffeeRoll.dev. This site is built on [devlopr-jekyll](https://github.com/sujaykundu777/devlopr-jekyll), a portfolio style Jekyll template aimed at developers. 
 
-I'll fix this post later, once the deployment is working
+
+
+I'm super new to blogging and am not really sure what I'm doing. It's been a lot of fun customizing this template as I learn the ins and outs of Jekyll. There's way more to this than I had anticipated.
+
+The site has some randomness built-in, in the form of the type-text on the home page. Give it a couple refreshes and see what you get! I plan on adding more little easter eggs like that as I continue to build out this site, but they may not be as obvious - so stay sharp!
