@@ -2,6 +2,8 @@
     "typetexts": [
         "Mmm, fresh brewed Java",
         "Let's cook up some apps!",
-        "Exception in thread \"main\": java.lang.OutOfCoffeeError"
+        "Exception in thread \"main\": java.lang.OutOfCoffeeError",
+        "We're gonna need a bigger mug",
+        "\"These croissants are almost as flaky as our network\""
     ]
 }
