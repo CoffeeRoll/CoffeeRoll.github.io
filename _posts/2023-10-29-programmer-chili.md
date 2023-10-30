@@ -45,7 +45,8 @@ And I better not see this at next year's cook-off!
 1. Drain most of the fat from the pan before decanting the meat into a slow cooker. 
 1. Once all of the meat is in the slow cooker, add the tomato paste, canned tomatoes, jalapeños, corn, and baked beans.
 1. Stir gently to incorporate all the ingredients together, and let sit for 3 hours on low to finish cooking
-1. Once the chili has finished cooking, give it a taste, and add as much (or as little) cayenne as you think it needs. 
+1. Once the chili has finished cooking, give it a taste, and add as much (or as little) cayenne to suit your taste. 
+1. Serve and enjoy!
 
 ### Nutrition
 
