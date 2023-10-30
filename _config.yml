@@ -9,8 +9,8 @@ urls:
     url: /about
   - text: Blog
     url: /blog
-logo: logo_orange.png
-author_logo: coffeeroll_white.png
+logo: logo_black.png
+author_logo: coffeeroll.png
 author: CoffeeRoll
 author_bio: 'Just another C# developer, nothing to see here.'
 author_email: null

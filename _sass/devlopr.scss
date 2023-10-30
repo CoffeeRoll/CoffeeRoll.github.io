@@ -7,7 +7,7 @@ $mono-typeface: Menlo, Monaco, monospace;
 $text-width: 650px;
 
 html[data-theme="dark"] {
-    --bold-color: rgb(188, 188, 188);
+    --bold-color: rgb(218, 218, 218);
     --box-background-color: hsl(0, 0%, 20%);
     --highlight-color: hsl(0, 0%, 60%);
     --light-border-color: hsl(0, 0%, 30%);
@@ -15,9 +15,9 @@ html[data-theme="dark"] {
     --link-color: #f69801;
     --link-color-visited: hsl(250, 100%, 60%);
     --main-background-color: rgb(28, 28, 30);
-    --main-text-color: rgb(139, 139, 139);
-    --medium-text-color: hsl(0, 0%, 70%);
-    --underline-color: hsl(0, 0%, 50%);
+    --main-text-color: rgb(177, 177, 177);
+    --medium-text-color: hsl(0, 0%, 77%);
+    --underline-color: hsl(0, 0%, 56%);
     --social-link-color: #ffffff;
     --card-background-color: rgb(32, 32, 34);
     --newsletter-background-color: #222324;
@@ -976,12 +976,14 @@ footer {
       #topNav {
           padding-left:  0px;
           padding-right: 0px;
+          padding-top: 0px;
+          padding-bottom: 0px;
       }
 
       .navbar-brand {
           display: inline-block;
-          padding-top: .3125rem;
-          padding-bottom: .3125rem;
+          padding-top: .125rem;
+          padding-bottom: .125rem;
           margin-right: 1rem;
           font-size: 1.25rem;
           line-height: inherit;
