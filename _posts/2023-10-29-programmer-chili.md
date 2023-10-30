@@ -5,7 +5,7 @@ title: Programmer Chili
 date: 2023-10-29T21:19:59.613Z
 thumbnail: /assets/img/posts/programmer-chili/chili-chili-pepper-dried-pepper-preview.jpg
 category: recipe
-summary: Blog setup
+summary: I promise this isn't a food blog
 keywords: recipe, chili, jekyll, github pages
 permalink: /blog/programmer-chili/
 comments: true
